@@ -1,0 +1,14 @@
+{
+    "collectCoverage": true,
+    "coverageThreshold": {
+        "global": {
+            "branches": 95,
+            "functions": 95,
+            "lines": 100
+        }
+    },
+    "testTimeout": 100,
+    "coverageReporters": ["lcov"],
+    "coverageDirectory": "output/code-coverage/"
+
+}
